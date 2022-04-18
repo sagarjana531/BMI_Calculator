@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:backgroundTint="#DC9494"
+    tools:context=".KnowMore">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="your BMI is"
+        android:background="#D5DAC9"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/BMInow"
+        android:background="#D5DAC9"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:text="your weight should be in between"
+        android:background="#EBE7D9"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/weightsb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#EBE7D9"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/message"
+        android:background="#CFE4E2"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:backgroundTint="#ECEAEE"
+        android:id="@+id/image"
+        />
+
+</LinearLayout>

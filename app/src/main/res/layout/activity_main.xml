@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/llmain"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Weight:"
+        android:layout_margin="10dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/edtweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/Hint_wt"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Height:"
+        android:layout_margin="10dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/edtheightFeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/Hint_htf"
+            android:inputType="number"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:id="@+id/edtheightInch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/Hint_hti"
+            android:inputType="number"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:autofillHints="True" />
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_text"
+        android:background="#4A5CD7"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/btnCalculate"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:text="Result"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI is"
+        android:textSize="25dp"
+        android:id="@+id/BMIis"
+        android:textAlignment="center"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/knowbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Know More"
+        android:textSize="30dp">
+
+    </Button>
+
+</LinearLayout>

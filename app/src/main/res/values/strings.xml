@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMI Calculator 2.0</string>
+    <string name="Hint_wt">In Kg</string>
+    <string name="Hint_htf">in Feet</string>
+    <string name="Hint_hti">and Inch</string>
+    <string name="Button_text">Calculate BMI</string>
+    <string name="OverW">You are OverWeight</string>
+    <string name="HealthyW">You are Healthy</string>
+    <string name="UnderWeight">You are UnderWeight</string>
+</resources>
